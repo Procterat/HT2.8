@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    filter: brightness(40%);
+    margin: 0 auto;
+    background-image: url(images/13.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 25%;
+    left: 12%;
+}
+
+h1 {
+    color: white;
+    font-family: "Squada One", sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    width: 600px;
+    text-align: center;
+}
+
+.content {
+    height: 80vh;
+    float: right;
+    margin: 48px 80px;
+}
+
+.gallery {  
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 35px;
+    max-width: 870px;
+}
+
+.gallery__item {
+    max-width: 175px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
